@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Weather App
+This Weather App was developed as part of my COMP 3123 - Full Stack Development Lab Test 2. The app allows users to view real-time weather data for any city, including the current weather conditions, detailed hourly forecasts, and air conditions like Real Feel, humidity, and wind speed. The app provides a modern, responsive, and visually appealing interface, making it both functional and user-friendly.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Author
+Developed by Jam Furaque
+COMP 3123 - Full Stack Development Lab Test 2
+George Brown College
 
-## Available Scripts
+## Features
+City Search: Search for real-time weather data by entering the city name in the search bar.
+Current Weather: Displays the current temperature, weather description, and a weather icon.
+Hourly Forecast: Shows the temperature and weather conditions for the next five time intervals.
+Air Conditions: Highlights additional weather metrics such as:
+Real Feel: Feels-like temperature
+Humidity: Percentage of atmospheric humidity
+Wind Speed: Speed of wind in km/h
+Responsive Design: Adapts seamlessly to both desktop and mobile devices.
+Modern UI: Designed with dynamic gradients, professional layouts, and weather-related icons for improved user experience.
 
-In the project directory, you can run:
+## Technology Stack
+This project leverages the following technologies:
 
-### `npm start`
+React.js: Frontend library for building the user interface.
+OpenWeatherMap API: Real-time weather data provider.
+CSS: For custom styling with Flexbox and grid layouts.
+Font Awesome: For weather and air condition icons.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How the App Works
+Search for a City: Users can type the name of a city into the search bar to fetch weather data for that location.
+View Current Weather:
+Displays the city name, current temperature, and weather description (e.g., "Overcast Clouds").
+Shows a weather icon that matches the current condition.
+View Hourly Forecast:
+Provides the temperature and weather icons for the next five time slots.
+Air Conditions:
+Displays Real Feel, humidity, and wind speed with accompanying icons for better readability.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Purpose of the App
+This project was developed as part of the COMP 3123 - Full Stack Development Lab Test 2 to demonstrate the following skills:
 
-### `npm test`
+Integrating external APIs (OpenWeatherMap API) in a React.js application.
+Managing state using React hooks (useState, useEffect).
+Building a responsive and visually appealing user interface.
+Working with dynamic data and handling asynchronous API calls.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Improvements
+Add a 5-day extended forecast view for better weather insights.
+Implement geolocation-based weather search.
+Include additional metrics such as Air Quality Index (AQI).
+Introduce a dark mode for enhanced user experience.
