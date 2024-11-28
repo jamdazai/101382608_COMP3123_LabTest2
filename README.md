@@ -2,9 +2,9 @@
 This Weather App was developed as part of my COMP 3123 - Full Stack Development Lab Test 2. The app allows users to view real-time weather data for any city, including the current weather conditions, detailed hourly forecasts, and air conditions like Real Feel, humidity, and wind speed. The app provides a modern, responsive, and visually appealing interface, making it both functional and user-friendly.
 
 # Author
-Developed by Jam Furaque
-COMP 3123 - Full Stack Development Lab Test 2
-George Brown College
+- Developed by Jam Furaque
+- COMP 3123 - Full Stack Development Lab Test 2
+- George Brown College
 
 ## Features
 - City Search: Search for real-time weather data by entering the city name in the search bar.
